@@ -1,6 +1,7 @@
 
 import './App.css'
 import Navbar from "#components/Navbar.jsx";
+import Welcome from "#components/Welcome.jsx";
 
 function App() {
 
@@ -8,6 +9,7 @@ function App() {
   return (
     <main>
       <Navbar/>
+        <Welcome/>
     </main>
   )
 }
